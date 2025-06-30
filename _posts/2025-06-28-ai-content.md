@@ -1,8 +1,8 @@
 ---
 layout: post
-title: {{HTTP - News Response.body.articles[0].title}}
-date: {{Format Date.output}}
+title: "{{title}}"
+date: "{{date}}"
 categories: ai news
 ---
 
-{{Gemini AI Output.text}}
+{{content}}
