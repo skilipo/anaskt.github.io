@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Example Gemini Blog Post
-date: 2025-06-28
+title: {{HTTP - News Response.body.articles[0].title}}
+date: {{Format Date.output}}
 categories: ai news
 ---
 
-هذا المقال تم توليده تلقائيًا بواسطة تقنية Google Gemini واستخدام Make.com.
+{{Gemini AI Output.text}}
